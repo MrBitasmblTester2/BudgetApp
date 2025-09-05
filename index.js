@@ -1,0 +1,1 @@
+// index.js\nconst express = require('express');\nconst insights = require('./routes/insights');\nconst app = express();\napp.use('/insights', insights);\napp.listen(3000);
