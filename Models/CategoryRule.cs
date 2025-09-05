@@ -1,0 +1,1 @@
+// Models/CategoryRule.cs\nnamespace BudgetApp.Models { public class CategoryRule { public int Id { get; set; } public string Pattern { get; set; } } }
