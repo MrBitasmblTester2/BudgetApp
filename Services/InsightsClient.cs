@@ -1,0 +1,1 @@
+// Services/InsightsClient.cs\nusing System.Net.Http;\npublic class InsightsClient { readonly HttpClient _http; public InsightsClient(HttpClient http) => _http = http; public Task GetInsightsAsync() => _http.GetAsync("http://express:3000/insights"); }
