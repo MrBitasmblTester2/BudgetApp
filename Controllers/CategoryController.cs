@@ -1,0 +1,1 @@
+// Controllers/CategoryController.cs\nusing Microsoft.AspNetCore.Mvc;\nnamespace BudgetApp.Controllers { [ApiController] [Route("api/[controller]")] public class CategoryController : ControllerBase { // TODO: Add CRUD for rules } }
