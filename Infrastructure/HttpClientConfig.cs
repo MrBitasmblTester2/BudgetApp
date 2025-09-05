@@ -1,0 +1,1 @@
+// Infrastructure/HttpClientConfig.cs\nusing Microsoft.Extensions.DependencyInjection;\npublic static class HttpClientConfig { public static void AddExternalClients(this IServiceCollection svc) { svc.AddHttpClient<BudgetClient>(); svc.AddHttpClient<InsightsClient>(); } }
