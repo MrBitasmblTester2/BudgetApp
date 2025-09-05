@@ -1,0 +1,1 @@
+// Services/BudgetClient.cs\nusing System.Net.Http;\npublic class BudgetClient { readonly HttpClient _http; public BudgetClient(HttpClient http) => _http = http; public Task GetBudgetAsync() => _http.GetAsync("http://go:8081/budget"); }
