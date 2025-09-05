@@ -1,0 +1,1 @@
+// Services/CategoryService.cs\nusing BudgetApp.Models;\npublic class CategoryService { // TODO: Implement methods to match and assign categories based on rules }
