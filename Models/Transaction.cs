@@ -1,0 +1,1 @@
+// Models/Transaction.cs\nnamespace BudgetApp.Models {\n public class Transaction { public int Id { get; set; } public decimal Amount { get; set; } public string Category { get; set; } }\n}
