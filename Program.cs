@@ -1,0 +1,1 @@
+// Program.cs\nvar builder = WebApplication.CreateBuilder(args);\n// TODO: Register services\nvar app = builder.Build();\napp.MapControllers();\napp.Run();
