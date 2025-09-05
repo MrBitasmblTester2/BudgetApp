@@ -1,0 +1,1 @@
+// routes/insights.js\nconst express = require('express');\nconst router = express.Router();\nrouter.get('/', (req, res) => { res.json({ message: 'static insight' }); });\nmodule.exports = router;
