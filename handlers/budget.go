@@ -1,0 +1,1 @@
+// handlers/budget.go\npackage handlers\nimport "net/http"\nfunc getBudgetHandler(w http.ResponseWriter, r *http.Request) { // TODO: Return budget progress }
