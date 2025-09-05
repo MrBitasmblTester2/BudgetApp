@@ -1,0 +1,1 @@
+// Controllers/TransactionController.cs\nusing Microsoft.AspNetCore.Mvc;\nnamespace BudgetApp.Controllers {\n [ApiController]\n [Route("api/[controller]")]\n public class TransactionController : ControllerBase {\n  // TODO: Add GET/POST actions\n }\n}
